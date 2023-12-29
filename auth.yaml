@@ -1,17 +1,17 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
 credentials:
   usernames:
-    dpromisel:
-      email: dpromisel@me.com
-      name: David Promisel
-      password: $2b$12$dwuoBbR0RBEXkLFEJjVceOvJneUANiYNh6xhvftK85WDP7uktZLHS
     apromisel:
       email: apromisel@mac.com
       name: Andy Promisel
       password: $2b$12$dwuoBbR0RBEXkLFEJjVceOvJneUANiYNh6xhvftK85WDP7uktZLHS
-cookie:
-  expiry_days: 30
-  key: random_signature_key # Must be string
-  name: random_cookie_name
-# preauthorized:
-#   emails:
-#     - melsby@gmail.com
+    dpromisel:
+      email: dpromisel@me.com
+      name: David Promisel
+      password: $2b$12$pmBtRPIlQQ6AntmympAj/.bQj/TxYWWI5bTsQv3749Rgny.69.0YS
+preauthorized:
+  emails:
+  - melsby@gmail.com
