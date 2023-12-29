@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    dpromisel:
+      email: dpromisel@me.com
+      name: David Promisel
+      password: $2b$12$ojWLopk1J563zciWGH3IV.RXDTpDV0R52XuuU.ZxVo3bcgi2jwULu # To be replaced with hashed password
+    rbriggs:
+      email: rbriggs@gmail.com
+      name: Rebecca Briggs
+      password: $2b$12$zqeYOB9j7j7rZLROHi2spObq.FS3zg9q7hRCLSlS9s0betUm2MkBO # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+    - melsby@gmail.com
