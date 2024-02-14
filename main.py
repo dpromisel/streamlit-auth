@@ -1,8 +1,8 @@
 import streamlit_authenticator as stauth
 import streamlit as st
-# hashed_passwords = stauth.Hasher(['abc', 'def']).generate()
 
-# print(hashed_passwords)
+# https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/
+# https://blog.streamlit.io/streamlit-authenticator-part-2-adding-advanced-features-to-your-authentication-component/
 
 authpath = './auth.yaml'
 
